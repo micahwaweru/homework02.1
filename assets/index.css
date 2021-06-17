@@ -1,0 +1,158 @@
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: black;
+    color: white;
+    font-family: sans-serif;
+}
+
+.header {
+    padding: 50px;
+    background-color: black;
+}
+
+.header h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+
+.header div {
+    padding-top: 15px;
+    margin-right: 20px;
+    float:right;
+    font-size: 20px;
+}
+
+header div ul{
+    list-style-type: none;
+}
+
+.header div ul li{
+display: inline-block;
+margin-left: 25px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+.hero{
+    height: 400px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-color: black;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-content: space-between;
+    max-height: 400px;
+    max-width: 100%;
+
+}
+
+.hero p{
+    padding: 50px;
+    font-size: 2em;
+    flex-wrap: wrap;
+    width: 75%;
+}
+
+.hero img{
+    margin-top: 50px;
+    height: 50%;
+    border: solid black 5px;
+    border-radius: 15px;
+}
+
+.content{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    margin-left: 12%;
+}
+
+#lead-img{
+    position: relative;
+    max-height: 500px;
+    max-width: 666px;
+
+    margin-bottom: 50px;
+    margin-left: 20%;
+    margin-right: 20%;
+    
+}
+
+#lead-img img{
+    display: block;
+    height: 100%;
+    width: 100%;
+    border: solid black 5px;
+    border-radius: 15px;
+}
+
+.lft-img-clr-blck{
+    margin-bottom: 20px;
+    padding: 50px;
+    min-height: 300px;
+    max-width: 75%;
+    min-width: 75%;
+    background-color: white;
+    color: black;
+    border: solid black 5px;
+    border-radius: 15px;
+}
+
+
+
+.blk-ctn{
+    display: block;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+.blk-ctn a{
+    color: black;
+}
+.blk-ctn img:hover{
+    filter: grayscale(50%);
+}
+
+.lft-img-clr-blck img{
+    border: solid white 5px;
+    border-radius: 15px;
+}
+
+.rgt-img-clr-blck{
+    margin-bottom: 20px;
+    padding: 50px;
+    min-height: 300px;
+    min-width: 75%;
+    background-color: white;
+    color: black;
+    border: solid black 5px;
+    border-radius: 15px;
+}
+
+aside{
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    background-color: white;
+    color: black;
+} 
+
+footer{
+    padding: 30px;
+    clear: both;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
