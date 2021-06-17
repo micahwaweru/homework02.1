@@ -4,4 +4,4 @@ For this project, I decided to use my currently active portfolio on Squarespace 
 
 Deployed application: https://micahwaweru.github.io/homework02.1/
 
-screenshot located in /assets/images
+![alt text](https://github.com/micahwaweru/homework01.2/blob/master/Assets/images/Screen%20Shot%202021-06-14%20at%206.44.11%20PM.png)
